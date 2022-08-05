@@ -4,6 +4,8 @@ import com.kodilla.testing.calculator.SimpleCalc;
 import com.kodilla.testing.collection.OddNumbersExterminator;
 import com.kodilla.testing.user.SimpleUser;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class TestingMain {
@@ -28,6 +30,8 @@ public class TestingMain {
         }
         //zd3
         OddNumbersExterminator oddNumbersExterminator = new OddNumbersExterminator();
+
+
 
 
 
