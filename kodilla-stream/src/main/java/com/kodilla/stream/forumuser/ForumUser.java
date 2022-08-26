@@ -1,7 +1,6 @@
 package com.kodilla.stream.forumuser;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 
 public class ForumUser {
     private final int id;
@@ -17,7 +16,6 @@ public class ForumUser {
         this.birthday = birthday;
         this.posts = posts;
     }
-
     public int getId() {
         return id;
     }

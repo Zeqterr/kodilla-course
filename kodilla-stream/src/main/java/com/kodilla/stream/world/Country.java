@@ -1,32 +1,23 @@
 package com.kodilla.stream.world;
 
+import com.kodilla.stream.forumuser.ForumUser;
 import com.kodilla.stream.world.Continent;
 
+import java.math.BigDecimal;
+import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Country {
-    public static void getPeopleQuantity(){
+    private String countryName;
+    private BigDecimal peopleQuantity;
+    public Country(String countryName, BigDecimal peopleQuantity) {
+        this.countryName = countryName;
+        this.peopleQuantity = peopleQuantity;
     }
-
-    public int Japonia{
-    return 124 582 000;}
-    public int Chiny{
-    return 1 403 513 356;}
-
-    public int Korea_Poludniowa{
-    return 51225308;}
-    Włochy{
-    return 60483973;}
-    polska{
-    return 37578000;}
-    francja{
-    return 68 49000;}
-    Wielka_Brytania{
-    return 67829000;}
-    Stany_Zjednoczone{
-    return 339105658;}
-    kanada{
-    return 38150000;}
-    meksyk{
-    return 136869000;}
+    public BigDecimal getPeopleQuantity(){
+        return peopleQuantity;
+    }
 }
 
 
